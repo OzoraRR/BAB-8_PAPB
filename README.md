@@ -50,10 +50,6 @@ Tombol **Refresh** memanggil fungsi `refresh()` pada HomeViewModel melalui `view
 - Setelah request selesai, aplikasi menampilkan hasil atau pesan error.
 - Setelah Refresh berhasil, pengguna tetap dapat membuka Detail dan kembali ke Home.
 
-## Pengujian
-
-Build aplikasi berhasil, 8 unit test dan 3 tes emulator lulus. Pengujian mencakup debounce, pembatalan request lama, Refresh sesuai query aktif, hasil kosong, pemulihan koneksi, serta navigasi Home–Detail–Back. Android Lint tidak menemukan error.
-
 ## Cara Menjalankan
 
 1. Ekstrak ZIP, kemudian buka folder **NavLab** di Android Studio.
